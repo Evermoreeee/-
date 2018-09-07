@@ -1,0 +1,47 @@
+<!--page/component/huiyuan/huiyuan.wxml-->
+<!-- <text>page/component/huiyuan/huiyuan.wxml</text> -->
+<view class='main'>
+  <view class='ser-top'>
+      <view class='inp-box flex flex-1'>
+         <input class='inptitm flex-1' placeholder='搜索会员手机号或卡号'></input>
+         <image class='iconI' src='/image/sousuo.png'></image>
+      </view>
+  </view>
+  <view class='flex flex-1  nav_tab'>
+     <view class='felx-1 flex itemtab'>
+        <view class='tabItem'>累计会员</view>
+        <text class='tabText'>2</text>
+     </view>
+     <view class='felx-1 flex itemtab centertab'>
+        <view class='tabItem'>储值总额</view>
+        <text class='tabText'>600</text>
+     </view>
+     <view class='felx-1 flex itemtab'>
+        <view class='tabItem'>消费总额</view>
+        <text class='tabText'>12</text>
+     </view> 
+  </view>
+  <view class='navtab flex '>
+      <view class="tab-title {{obIndex == 0 ? 'checkTab' : ''}}" bindtap='checkitem' data-index="0" >全部</view>
+      <view class="tab-title {{obIndex == 1 ? 'checkTab' : ''}}" bindtap='checkitem' data-index="1" >实体卡会员</view>
+      <view class="tab-title {{obIndex == 2 ? 'checkTab' : ''}}" bindtap='checkitem' data-index="2" >微信/虚拟会员</view>
+  </view>
+  <view class='detailBox'>
+      <view class='flex detailItem'>
+          <image class='imgtou' src='/image/touxianga.png'></image>
+          <view class='detaiText flex'>
+              <view class='itemOne'>时光</view>
+              <view class='itemTwo'>共消费 <tetx class='spanp'>2</tetx> 笔</view> 
+              <view class='itemTwo'>交易 <tetx class='spanp'>1</tetx> 笔</view>   
+          </view>
+      </view>
+      <view class='flex detailItem'>
+          <image class='imgtou' src='/image/touxianga.png'></image>
+          <view class='detaiText flex'>
+              <view class='itemOne'>时光</view>
+              <view class='itemTwo'>共消费 <tetx class='spanp'>2</tetx> 笔</view> 
+              <view class='itemTwo'>交易 <tetx class='spanp'>1</tetx> 笔</view>   
+          </view>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,107 @@
+/* page/component/huiyuan/huiyuan.wxss */
+@import '../../common/common.wxss';
+
+
+.main{
+  height: 100%;
+  width: 100%;
+  /* background-color: #eeeeee; */
+}
+.ser-top{
+  padding: 23rpx  41rpx;
+  background-image: linear-gradient(0deg, 
+		#3e45db 0%, 
+		#4e7eef 100%);
+}
+.inp-box{
+  position: relative;
+  font-size: 26rpx;
+  color: #8a8a8a;
+  background-color: #ffffff;
+	border-radius: 26rpx;
+  align-items: center;
+}
+.inptitm{
+  flex: 1;
+  text-align: center;
+  border: 0
+}
+.iconI{
+  position: absolute;
+  right: 26rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+.nav_tab{
+  padding: 26rpx 41rpx;
+  background-color: #fff;
+}
+.itemtab{
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.tabItem{
+  font-size: 26rpx;
+  color: #8a8a8a;
+}
+.tabText{
+  font-size: 40rpx;
+  color: #191919;
+}
+.centertab{
+  border-left: 1rpx solid #eeeeee;
+  border-right: 1rpx solid #eeeeee;
+  
+}
+
+.navtab{
+  padding: 0 41rpx;
+  height: 74rpx;
+  background-color: #eeeeee;
+  line-height: 74rpx;
+  font-size: 26rpx;
+  color: #8a8a8a;
+
+}
+.tab-title{
+  height: 100%;
+  flex:1;
+  display: flex;
+  justify-content: center;
+}
+.checkTab{
+  border-bottom: 1rpx solid #4e7eef 
+}
+.detailBox{
+  padding: 0 41rpx;
+}
+.detailItem{
+  padding: 36rpx 0;
+  border-bottom: 2rpx solid #eeeeee;
+}
+.imgtou{
+  width: 117rpx;
+  height: 117rpx;
+  border-radius: 6rpx;
+}
+
+.detaiText{
+  flex: 1;
+  flex-direction: column;
+  margin-left: 32rpx;
+  font-size: 29rpx;
+}
+.itemOne{
+  flex: 1;
+  color: #2b2b34;
+}
+.itemTwo{
+  color: #8a8a8a
+}
+
+.spanp{
+  color: #f59140;
+}

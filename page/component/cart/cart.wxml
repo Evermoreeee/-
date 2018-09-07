@@ -1,0 +1,91 @@
+<view class="main">
+  <view class='flex flex-1 item_box1 bottom-mag'>
+    <view class='flex'>
+      <image class='item-imgtle' src='/image/qygc.png'></image>
+      <view class='titletab'>企业广场</view>
+    </view>
+    <view class='item1-end'>
+      <view>发现商机拓展客户</view>
+      <image class='item-imgRight' src='/image/jiantou.png'></image>
+    </view>
+  </view>
+  <navigator  url="../huiyuan/huiyuan">
+  <view class='flex flex-1 item_box2'>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/hyyx.png'></image>
+        <view class='titletab'>会员营销</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+  </navigator>
+  <view class='flex flex-1 item_box2'>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/gylcg.png'></image>
+        <view class='titletab'>供应链采购</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='flex flex-1 item_box2 bottom-mag'>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/jrbxfw.png'></image>
+        <view class='titletab'>金融保险服务</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='flex flex-1 item_box2'>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/hbyx.png'></image>
+        <view class='titletab'>红包营销</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='flex flex-1 item_box2 bottom-mag'>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/dlmyx.png'></image>
+        <view class='titletab'>大联盟营销</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+   <view class='flex flex-1 item_box2 '>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/zxfw.png'></image>
+        <view class='titletab'>咨询服务</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='flex flex-1 item_box2 '>
+    <view class='item-bord'>
+      <view class='flex'>
+        <image class='item-imgtle' src='/image/xxzx.png'></image>
+        <view class='titletab'>学习中心</view>
+      </view>
+      <view class='item1-end'>
+        <image class='item-imgRight' src='/image/jiantou.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

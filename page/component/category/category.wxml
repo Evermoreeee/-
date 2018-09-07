@@ -1,0 +1,34 @@
+<view class="main">
+    <view class='itembox flex'>
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/zuo.png'></image>
+          <view class='itemText'>敏感操作</view>
+      </view>
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/ysgk.png'></image>
+          <view class='itemText'>营收概况</view>
+      </view>
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/zdhz.png'></image>
+          <view class='itemText'>账单汇总</view>
+      </view>    
+       <view class='itemtit'>
+          <image class='itemImg' src='/image/ddmx.png'></image>
+          <view class='itemText'>订单明细</view>
+      </view>
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/cdbb.png'></image>
+          <view class='itemText'>菜单报表</view>
+      </view>
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/cwbb.png'></image>
+          <view class='itemText'>财务报表</view>
+      </view>    
+      <view class='itemtit'>
+          <image class='itemImg' src='/image/ddbb.png'></image>
+          <view class='itemText'>订单报表</view>
+      </view>   
+    </view>
+    
+    
+</view>
