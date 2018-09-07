@@ -15,6 +15,7 @@
 }
 .inp-box{
   position: relative;
+  height: 53rpx;
   font-size: 26rpx;
   color: #8a8a8a;
   background-color: #ffffff;
@@ -27,10 +28,11 @@
   border: 0
 }
 .iconI{
-  position: absolute;
-  right: 26rpx;
+  /* position: absolute; */
+  /* right: 26rpx; */
   width: 36rpx;
   height: 36rpx;
+  margin-right: 28rpx;
 }
 .nav_tab{
   padding: 26rpx 41rpx;

@@ -1,5 +1,77 @@
 @import '../common/common.wxss';
-.search{
+
+.flex-1{
+  flex: 1;
+}
+.topbgimg{
+  width: 28rpx;
+	height: 16rpx;
+  margin-left: 10rpx;
+	/* background-color: #ffffff; */
+}
+.topItem{
+  width: 100%;
+  height: 103rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(0deg, 
+		#4f81f0 0%, 
+		#3e43db 100%); */
+  background-image: url('http://www.iburu.cn/20180907161711.png');
+  background-size: cover;
+}
+.toptext{
+  text-align: center;
+  font-size: 38rpx;
+  color: #ffffff;
+}
+.navtopBox{
+  margin-top: 40rpx;
+  flex: 1;
+  /* width: 100%; */
+  padding: 0 28rpx 40rpx 0;
+  /* background-color: #333; */
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.tabItemimg{
+  height: 66rpx;
+  width: 68rpx;  
+  margin-bottom: 18rpx;
+}
+
+.tabitem{
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  color: #191919;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .search{
     padding: 20rpx;
 }
 .search-text{
@@ -67,4 +139,4 @@ swiper-item image {
 }
 .newest-box .newest-list .newest-text{
     font-size: 32rpx;
-}
+} */

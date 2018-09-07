@@ -13,7 +13,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "#333",
-    "navigationBarTitleText": "东方美食城",
+    "navigationBarTitleText": "首 页",
     "navigationBarBackgroundColor": "#3e43db",
     "backgroundColor": "#eeeeee",
     "enablePullDownRefresh": true
@@ -28,25 +28,25 @@
         "pagePath": "page/component/index",
         "iconPath": "image/shou2.png",
         "selectedIconPath": "image/shou1.png",
-        "text": "首页"
+        "text": "首 页"
       },
       {
         "pagePath": "page/component/category/category",
         "iconPath": "image/bao1.png",
         "selectedIconPath": "image/bao2.png",
-        "text": "报表"
+        "text": "报 表"
       },
       {
         "pagePath": "page/component/cart/cart",
         "iconPath": "image/fa2.png",
         "selectedIconPath": "image/fa1.png",
-        "text": "发现"
+        "text": "发 现"
       },
       {
         "pagePath": "page/component/user/user",
         "iconPath": "image/wo2.png",
         "selectedIconPath": "image/wo1.png",
-        "text": "我的"
+        "text": "我 的"
       }
     ]
   },
